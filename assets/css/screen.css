@@ -167,7 +167,7 @@ body {
 	font-size: 17px;
     font-size: 1.7rem;
     line-height: 1.7em;
-    background-color: #333f49;
+    background-color: #fff;
     /*color: #3A4145;*/
 }
 
@@ -222,13 +222,13 @@ h6 {
 }
 
 a {
-    color: #40698c;
+    color: #555;
     /*text-decoration: none;*/
     transition: color ease 0.4s;
 }
 
 a:hover {
-    color: rgb(247,97,97);
+    color: #ff9933;
 }
 
 h1 a, h2 a, h3 a,
@@ -461,7 +461,7 @@ a.fa {
 
 .btn {
     display: inline-block;
-    background-color: #354c60;
+    background-color: #555;
     padding: 0 8px;
     color: #fff;
     font-size: 1.3rem !important;
@@ -471,7 +471,7 @@ a.fa {
 
 .btn:hover {
     color: #fff;
-    background-color: #333f49;
+    background-color: #ccc;
     transition: background-color 0.5s ease;
 }
 
@@ -523,7 +523,7 @@ main {
     width: 100%;
     top: 0;
     background-size: cover;
-    color: #fff;
+    color: #999;
     text-align: center;
     position: fixed;
     z-index: -1;
@@ -554,8 +554,8 @@ h1.blog-title {
     position: absolute;
     bottom: 0;
     width: 100%;
-	background: rgb(247,97,97);
-    background-color: rgba(247,97,97,0.85);
+	background: #ff9933;
+    background-color: #ff9933;
     z-index: 100;
     text-align: center;
 }
@@ -679,18 +679,14 @@ main {
 	font-size: 15px;
     font-size: 1.5rem;
     letter-spacing: 0.2px;
-    background-color: #333f49;
-    color: #fff;
+    background-color: #fff;
+    color: #555;
     text-align: center;
 }
 
 .site-footer a {
-    color: #f76161;
+    color: #ff9933;
     text-decoration: none;
-}
-
-.site-footer a:hover {
-    color: #A3BED6;
 }
 
 .post {
@@ -780,7 +776,7 @@ main {
 }
 
 .post-share .fa:hover {
-    color: rgb(247,97,97);
+    color: #ff9933;
 }
 
 .post-share h6 {
@@ -841,12 +837,12 @@ main {
 }
 
 .pagination a {
-    color: #4c4c4c;
+    color: #ff9933;
     text-decoration: none;
 }
 
 .pagination a:hover {
-    color: rgb(247,97,97);
+    color: #ff9933;
 }
 
 .page-number {
